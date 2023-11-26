@@ -67,6 +67,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworksResOverlayTetris \
+    SettingsResTetris \
     SystemUIOverlayTetris \
     TelephonyOverlayTetris \
     WifiResOverlayTetris
