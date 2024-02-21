@@ -23,6 +23,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/generic_ramdisk.mk)
 # Setup dalvik vm configs
 $(call inherit-product,frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Add vendor log tags
+include $(LOCAL_PATH)/configs/properties/vendor_log_tags.mk
+
 # A/B
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
