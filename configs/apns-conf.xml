@@ -2993,7 +2993,7 @@
   <apn carrier="Uninor" mcc="405" mnc="822" apn="Uninor" proxy="10.58.10.58" port="8080" type="default,supl" />
   <apn carrier="Uninor Internet" mcc="405" mnc="822" apn="Uninor" type="default,supl" />
   <apn carrier="Jio 4G" mcc="405" mnc="840" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="840" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="840" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Uninor" mcc="405" mnc="844" apn="Uninor" proxy="10.58.10.58" port="8080" type="default,supl" />
   <apn carrier="Uninor Internet" mcc="405" mnc="844" apn="Uninor" type="default,supl" />
   <apn carrier="IDEA Internet" mcc="405" mnc="845" apn="internet" type="default,supl" />
@@ -3060,47 +3060,47 @@
   <apn carrier="IDEA MMS" mcc="405" mnc="853" apn="mmsc" mmsc="http://10.4.42.21:8002/" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
   <apn carrier="IMS" mcc="405" mnc="853" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="854" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="854" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="854" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="855" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="855" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="855" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="856" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="856" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="856" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="857" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="857" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="857" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="858" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="858" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="858" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="859" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="859" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="859" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="860" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="860" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="860" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="861" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="861" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="861" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="862" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="862" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="862" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="863" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="863" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="863" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="864" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="864" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="864" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="865" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="865" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="865" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="866" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="866" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="866" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="867" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="867" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="867" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="868" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="868" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="868" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="869" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="869" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="869" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="870" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="870" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="870" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="871" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="871" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="871" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="872" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="872" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="872" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="873" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="873" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="873" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Jio 4G" mcc="405" mnc="874" apn="jionet" type="default,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" network_type_bitmask="18" />
-  <apn carrier="IMS" mcc="405" mnc="874" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="IMS" mcc="405" mnc="874" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20" />
   <apn carrier="Uninor" mcc="405" mnc="875" apn="Uninor" proxy="10.58.10.58" port="8080" type="default,supl" />
   <apn carrier="Uninor Internet" mcc="405" mnc="875" apn="Uninor" type="default,supl" />
   <apn carrier="Uninor" mcc="405" mnc="876" apn="Uninor" proxy="10.58.10.58" port="8080" type="default,supl" />
