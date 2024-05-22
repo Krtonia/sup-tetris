@@ -6991,7 +6991,7 @@
        apn="payandgo.o2.co.uk"
        user="payandgo"
        password="password"
-       type="default,mms,supl"
+       type="default,supl"
        network_type_bitmask="18"
   />
   <apn
@@ -7001,7 +7001,7 @@
        apn="mobile.o2.co.uk"
        user="O2web"
        password="password"
-       type="default,mms,supl,xcap"
+       type="default,supl,xcap"
        network_type_bitmask="18"
   />
   <apn
@@ -7013,7 +7013,7 @@
        port="8080"
        user="payandgo"
        password="password"
-       type="default,mms,supl"
+       type="default,supl"
        network_type_bitmask="18"
   />
   <apn
@@ -35107,7 +35107,7 @@
        apn="pps"
        user="pps"
        password="pps"
-       type="default,mms,supl"
+       type="default,supl"
        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
@@ -36252,7 +36252,7 @@
        apn="vodafone.com.qa"
        proxy="10.101.97.102"
        port="80"
-       type="default,mms,supl"
+       type="default,supl"
        network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
