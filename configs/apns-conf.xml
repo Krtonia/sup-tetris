@@ -145,7 +145,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IP"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Cosmote IMS"
@@ -169,7 +169,7 @@
        type="mms"
        protocol="IPV4V6"
        roaming_protocol="IP"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -334,7 +334,7 @@
        mmsproxy="193.12.40.64"
        mmsport="8080"
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Tele2 GPRS"
@@ -2609,7 +2609,7 @@
        password=""
        mmsc=""
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Free Mobile MMS"
@@ -2632,7 +2632,7 @@
        type="default,dun,mms,supl"
        mvno_match_data="F003"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -2920,7 +2920,7 @@
        password=""
        mmsc=""
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="NRJ MMS"
@@ -2949,7 +2949,7 @@
        mvno_type="spn"
        mvno_match_data="EI Telecom"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="EI Telecom MMS"
@@ -3729,7 +3729,7 @@
        mmsport="8080"
        authtype="1"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Conexión Compartida"
@@ -4178,7 +4178,7 @@
        mnc="30"
        apn="internet.telekom"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Telekom HU MMS"
@@ -4189,7 +4189,7 @@
        mmsproxy="212.51.126.10"
        mmsport="8080"
        type="mms"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -5738,7 +5738,7 @@
        apn="iliad"
        mmsc="http://mms.iliad-italia.it"
        type="default,dun,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -5923,7 +5923,7 @@
        password="vodafone"
        mmsc=""
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Vodafone RO MMS PRE"
@@ -6294,7 +6294,7 @@
        mmsproxy="010.000.000.010"
        mmsport="80"
        type="default,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="T-Mobile MMS"
@@ -6310,7 +6310,7 @@
        password="mms"
        authtype="1"
        type="mms"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -6992,7 +6992,7 @@
        user="payandgo"
        password="password"
        type="default,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 Internet(post)"
@@ -7002,7 +7002,7 @@
        user="O2web"
        password="password"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 WAP(pre)"
@@ -7014,7 +7014,7 @@
        user="payandgo"
        password="password"
        type="default,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 WAP(post)"
@@ -7038,7 +7038,7 @@
        user="payandgo"
        password="password"
        type="mms"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 MMS(post)"
@@ -7163,7 +7163,7 @@
        user="mobileweb"
        password="password"
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="o2 MMS"
@@ -7178,7 +7178,7 @@
        user="payandgo"
        password="password"
        type="mms"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 UK"
@@ -7192,7 +7192,7 @@
        mmsport="8080"
        authtype="1"
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 Contract"
@@ -7221,7 +7221,7 @@
        mmsproxy="193.113.200.195"
        mmsport="8080"
        type="default,hipri,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 WEB"
@@ -7234,7 +7234,7 @@
        password="O2web"
        mmsc=""
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="giffgaff"
@@ -7314,7 +7314,7 @@
        user="payandgo"
        password="password"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 Internet(post)"
@@ -7324,7 +7324,7 @@
        user="O2web"
        password="password"
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 WAP(pre)"
@@ -7336,7 +7336,7 @@
        user="payandgo"
        password="password"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 WAP(post)"
@@ -7360,7 +7360,7 @@
        user="payandgo"
        password="password"
        type="mms"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 MMS(post)"
@@ -8479,7 +8479,7 @@
        mvno_match_data="Lycamobile"
        authtype="1"
        type="emergency,mms"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Life Mobile"
@@ -9408,7 +9408,7 @@
        password=""
        authtype="3"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3MMS"
@@ -9424,7 +9424,7 @@
        password=""
        authtype="3"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3 DK"
@@ -9435,7 +9435,7 @@
        mmsproxy="mmsproxy.3.dk"
        mmsport="8799"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Oister"
@@ -10439,7 +10439,7 @@
        mmsproxy="mmsproxy.tre.se"
        mmsport="8799"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3 SE"
@@ -10447,7 +10447,7 @@
        mnc="02"
        apn="data.tre.se"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3 SE MMS"
@@ -10458,7 +10458,7 @@
        mmsproxy="mmsproxy.tre.se"
        mmsport="8799"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ims"
@@ -14269,7 +14269,7 @@
        mmsproxy="82.113.100.5"
        mmsport="8080"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 DE IMS"
@@ -14337,7 +14337,7 @@
        type="default,mms,supl"
        mvno_match_data="262072"
        mvno_type="imsi"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 DE IMS"
@@ -14365,7 +14365,7 @@
        type="default,mms,supl"
        mvno_match_data="2620739"
        mvno_type="imsi"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="O2 DE IMS"
@@ -14875,7 +14875,7 @@
        mmsport="8080"
        authtype="1"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -15399,7 +15399,7 @@
        mnc="02"
        apn="vodafoneweb"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Vodafone AL"
@@ -15496,7 +15496,7 @@
        mnc="10"
        apn="internet"
        type="default,dun,supl,xcap"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="epic ims"
@@ -15513,7 +15513,7 @@
        apn="ip.primetel"
        mmsc="http://mms.primetel"
        type="default,mms,supl"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -16308,7 +16308,7 @@
        roaming_protocol="IP"
        mvno_match_data="5455"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="TELUS ISP"
@@ -16346,7 +16346,7 @@
        roaming_protocol="IP"
        mvno_match_data="4B4F"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Koodo IMS"
@@ -16459,7 +16459,7 @@
        roaming_protocol="IP"
        mvno_match_data="5455"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="TELUS ISP"
@@ -16497,7 +16497,7 @@
        roaming_protocol="IP"
        mvno_match_data="4B4F"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Koodo IMS"
@@ -16735,7 +16735,7 @@
        mmsproxy="10.208.89.17"
        mmsport="8080"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Videotron Mobile LTE IMS"
@@ -16790,7 +16790,7 @@
        mmsproxy="10.208.89.17"
        mmsport="8080"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="LTE IMS"
@@ -16811,7 +16811,7 @@
        mmsproxy="10.208.89.17"
        mmsport="8080"
        type="default,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="LTE IMS"
@@ -16832,7 +16832,7 @@
        mmsc="http://mms.bell.ca/mms/wapenc"
        protocol="IPV4V6"
        roaming_protocol="IP"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Bell Mobility IMS"
@@ -16853,7 +16853,7 @@
        authtype="2"
        mvno_type="gid"
        mvno_match_data="62"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Virgin Mobile IMS"
@@ -17019,7 +17019,7 @@
        mmsport="80"
        mvno_type="gid"
        mvno_match_data="BA"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Tbaytel Tethering"
@@ -17045,7 +17045,7 @@
        mmsport="80"
        mvno_type="spn"
        mvno_match_data="CITYFONE"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Cityfone Tethering"
@@ -17092,7 +17092,7 @@
        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Rogers Netsvcs"
@@ -18102,7 +18102,7 @@
        password="mmsc"
        type="mms"
        authtype="3"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="WCW-MMS only"
@@ -18118,7 +18118,7 @@
        password="mmsc"
        type="default,mms"
        authtype="3"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -18266,7 +18266,7 @@
        protocol="IPV6"
        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
        mtu="1440"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="T-Mobile Tethering"
@@ -18335,7 +18335,7 @@
        mvno_type="gid"
        type="default,hipri,ia,mms,rcs,supl,xcap"
        mtu="1440"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MetroPCS 260"
@@ -18349,7 +18349,7 @@
        mvno_type="gid"
        type="default,dun,hipri,mms,rcs,supl,xcap"
        mtu="1440"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MetroPCS 260 IMS"
@@ -18699,7 +18699,7 @@
        mtu="1410"
        mvno_type="gid"
        mvno_match_data="4102"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -18760,7 +18760,7 @@
        mtu="1410"
        mvno_type="gid"
        mvno_match_data="44FF"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -18808,7 +18808,7 @@
        mtu="1410"
        mvno_type="gid"
        mvno_match_data="49FF"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -18855,7 +18855,7 @@
        roaming_protocol="IPV4V6"
        mvno_type="gid"
        mvno_match_data="53FF"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -18929,7 +18929,7 @@
        mtu="1410"
        mvno_type="gid"
        mvno_match_data="62FF"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -18977,7 +18977,7 @@
        mtu="1410"
        mvno_type="gid"
        mvno_match_data="69FF"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -19081,7 +19081,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        mtu="1410"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT WAP"
@@ -19503,7 +19503,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        mtu="1410"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="ATT Phone"
@@ -20870,7 +20870,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -20883,7 +20883,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -20919,7 +20919,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -20932,7 +20932,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -20968,7 +20968,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -20981,7 +20981,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21017,7 +21017,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21030,7 +21030,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21066,7 +21066,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21079,7 +21079,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21127,7 +21127,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="LTE - USCC INTERNET 2"
@@ -21139,7 +21139,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -21163,7 +21163,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21176,7 +21176,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21212,7 +21212,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21225,7 +21225,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21261,7 +21261,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21274,7 +21274,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21310,7 +21310,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21323,7 +21323,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -21986,7 +21986,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22011,7 +22011,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="8"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22024,7 +22024,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22037,7 +22037,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -22061,7 +22061,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22074,7 +22074,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22110,7 +22110,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22123,7 +22123,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22159,7 +22159,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22172,7 +22172,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22208,7 +22208,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22221,7 +22221,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22257,7 +22257,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22270,7 +22270,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22306,7 +22306,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22319,7 +22319,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22355,7 +22355,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22368,7 +22368,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22404,7 +22404,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22417,7 +22417,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22453,7 +22453,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="13"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22466,7 +22466,7 @@
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
        bearer="14"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="U.S. Cellular"
@@ -22832,7 +22832,7 @@
        apn="lte.claropr.com"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MMS CLARO"
@@ -22868,7 +22868,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Mensajes Multimedia"
@@ -22898,7 +22898,7 @@
        password="webgprs2002"
        mmsc=""
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Telcel MMS"
@@ -22937,7 +22937,7 @@
        password="movistar"
        mmsc=""
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MX MMS"
@@ -24525,7 +24525,7 @@
        password=""
        type="default,supl,xcap"
        authtype="3"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MMS CLARO"
@@ -24539,7 +24539,7 @@
        password=""
        type="mms,xcap"
        authtype="3"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -32836,7 +32836,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33413,7 +33413,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33434,7 +33434,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33455,7 +33455,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33476,7 +33476,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33497,7 +33497,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33518,7 +33518,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33539,7 +33539,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33560,7 +33560,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33581,7 +33581,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33602,7 +33602,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33623,7 +33623,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33644,7 +33644,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33665,7 +33665,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33686,7 +33686,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33707,7 +33707,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33728,7 +33728,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33749,7 +33749,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33770,7 +33770,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33791,7 +33791,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33812,7 +33812,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -33833,7 +33833,7 @@
        type="default,supl,xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -37682,7 +37682,7 @@
        mmsport="8080"
        authtype="3"
        type="default,hipri,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="csl Tethering"
@@ -37712,7 +37712,7 @@
        authtype="3"
        mvno_match_data="01020000"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="1O1O"
@@ -37724,7 +37724,7 @@
        mmsport="8080"
        authtype="3"
        type="default,hipri,mms,supl"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="1O1O"
@@ -37738,7 +37738,7 @@
        authtype="3"
        mvno_match_data="01010000"
        mvno_type="gid"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="1O1O Tethering"
@@ -37812,7 +37812,7 @@
        mmsport="8799"
        authtype="1"
        type="default,dun,mms,supl,xcap"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3 LTE"
@@ -41089,7 +41089,7 @@
        authtype="3"
        type="default,supl,xcap"
        protocol="IPV4V6"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Smartfren MMS"
@@ -41130,7 +41130,7 @@
        type="xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="TSEL BROADBAND"
@@ -41304,7 +41304,7 @@
        authtype="3"
        type="default,supl,xcap"
        protocol="IPV4V6"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Smartfren MMS"
@@ -41345,7 +41345,7 @@
        type="xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="3 GPRS"
@@ -41930,7 +41930,7 @@
        type="xcap"
        protocol="IPV4V6"
        roaming_protocol="IPV4V6"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
        user_visible="false"
   />
   <apn
@@ -44044,7 +44044,7 @@
        mnc="05"
        apn="internet"
        type="default,supl,xcap"
-       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|19|20"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -44766,7 +44766,7 @@
        type="ims"
        protocol="IP"
        roaming_protocol="IP"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MTN"
@@ -44926,7 +44926,7 @@
        user="movistargt"
        password="movistargt"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -45114,8 +45114,8 @@
        user="movistarsv"
        password="movistarsv"
        mmsc=""
-       type="default,supl,xcap"
-       network_type_bitmask="18"
+       type="supl,default,xcap"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar SV MMS"
@@ -45268,7 +45268,7 @@
        password="movistarni"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -45426,7 +45426,7 @@
        mnc="03"
        apn="internet.ideasclaro"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro MMS"
@@ -45459,7 +45459,7 @@
        password="movistarcr"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -45629,7 +45629,7 @@
        user="movistarpa"
        password="movistarpa"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -45692,7 +45692,7 @@
        password="CLAROWEB"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro MMS"
@@ -45846,7 +45846,7 @@
        password="claro"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro MMS"
@@ -45970,7 +45970,7 @@
        password="wap"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -46008,7 +46008,7 @@
        user="wap"
        password="wap"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -46259,7 +46259,7 @@
        user="ctigprs"
        password="ctigprs999"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro AR MMS"
@@ -46333,7 +46333,7 @@
        mmsc=""
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro AR MMS"
@@ -47206,7 +47206,7 @@
        user="wap"
        password="wap"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -47262,7 +47262,7 @@
        user="clarochile"
        password="clarochile"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MMS Claro"
@@ -47309,7 +47309,7 @@
        user="wap"
        password="wap"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -47752,7 +47752,7 @@
        user="http://www.movistar.com.ve/"
        password=""
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar WAP"
@@ -47789,7 +47789,7 @@
        mmsproxy="200.35.64.73"
        mmsport="9001"
        type="default,mms,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="IMS"
@@ -48044,7 +48044,7 @@
        user="movistar"
        password="movistar"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -48173,7 +48173,7 @@
        password="ctigprs999"
        authtype="1"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="MMS GPRS PY"
@@ -48400,7 +48400,7 @@
        user="movistar"
        password="movistar"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Movistar MMS"
@@ -48458,7 +48458,7 @@
        user="ctigprs"
        password="ctigprs999"
        type="default,supl,xcap"
-       network_type_bitmask="18"
+       network_type_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20"
   />
   <apn
        carrier="Claro MMS"
