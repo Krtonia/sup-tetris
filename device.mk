@@ -185,6 +185,10 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libutilscallstack.vendor
 
+PRODUCT_PACKAGES += \
+    libui_shim \
+    libui_shim.vendor
+
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/seccomp/,$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy) \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)

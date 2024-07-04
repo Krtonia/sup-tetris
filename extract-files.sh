@@ -55,11 +55,17 @@ fi
 
 function blob_fixup() {
     case "${1}" in
+        system_ext/lib64/libsource.so)
+            grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
+            ;;
         vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc)
             sed -i 's|android.hardware.graphics.allocator@4.0-service-mediatek|mt6878/android.hardware.graphics.allocator@4.0-service-mediatek.mt6878|g' "${2}"
             ;;
         vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc)
             sed -i 's|android.hardware.graphics.allocator-V2-service-mediatek|android.hardware.graphics.allocator-V2-service-mediatek.mt6878|g' "${2}"
+            ;;
+        vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so)
+            grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
             ;;
     esac
 }
