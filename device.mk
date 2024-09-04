@@ -62,6 +62,13 @@ PRODUCT_PACKAGES += \
     libsuspend \
     libdrm
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health-V1-ndk \
+    android.hardware.health@2.0 \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-service
+
 # Radio
 SKIP_BOOT_JARS_CHECK := true
 
