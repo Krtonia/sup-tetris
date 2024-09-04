@@ -75,6 +75,9 @@ PRODUCT_PACKAGES += \
     libhwbinder
 
 # Radio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-mediatek.xml
+
 SKIP_BOOT_JARS_CHECK := true
 
 PRODUCT_BOOT_JARS += \
