@@ -57,6 +57,10 @@ BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Charger
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Radio
 SKIP_BOOT_JARS_CHECK := true
 
