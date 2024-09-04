@@ -89,6 +89,10 @@ PRODUCT_PACKAGES += \
 # Kernel
 $(call inherit-product, device/nothing/tetris-kernel/kernel.mk)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.mt6878.vendor_ramdisk
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
