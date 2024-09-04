@@ -57,6 +57,14 @@ BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Radio
+SKIP_BOOT_JARS_CHECK := true
+
+PRODUCT_BOOT_JARS += \
+    mediatek-common \
+    mediatek-framework \
+    mediatek-ims-base
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
