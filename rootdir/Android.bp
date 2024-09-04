@@ -3,3 +3,10 @@ prebuilt_etc {
     src: "etc/fstab.mt6878",
     vendor_ramdisk_available: true
 }
+
+prebuilt_etc {
+    name: "init.recovery.mt6878.rc",
+    src: "etc/init.recovery.mt6878.rc",
+    recovery: true,
+    sub_dir: "init"
+}
