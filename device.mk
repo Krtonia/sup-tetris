@@ -59,7 +59,8 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Charger
 PRODUCT_PACKAGES += \
-    libsuspend
+    libsuspend \
+    libdrm
 
 # Radio
 SKIP_BOOT_JARS_CHECK := true
