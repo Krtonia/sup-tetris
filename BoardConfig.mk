@@ -6,6 +6,26 @@
 
 DEVICE_PATH := device/nothing/tetris
 
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    init_boot \
+    odm \
+    odm_dlkm \
+    product \
+    system \
+    system_ext \
+    system_dlkm  \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    vendor_boot \
+    vendor_dlkm  \
+    vendor
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -80,6 +100,7 @@ BOARD_HAS_MTK_HARDWARE := true
 TARGET_BOARD_PLATFORM := mt6878
 
 # Recovery
+BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
 BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 #BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
@@ -92,6 +113,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 BOARD_AVB_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_ROLLBACK_INDEX := 0
+BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 
 BOARD_AVB_BOOT_KEY_PATH := $(BOARD_AVB_KEY_PATH)
 BOARD_AVB_BOOT_ALGORITHM := $(BOARD_AVB_ALGORITHM)
