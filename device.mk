@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6878.vendor_ramdisk \
     init.recovery.mt6878.rc
 
+# Sensors
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
