@@ -57,6 +57,23 @@ BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio.service \
+    android.hardware.audio@7.1-impl \
+    android.hardware.audio.effect@7.0-impl \
+    audioclient-types-aidl-cpp.vendor \
+    audio.bluetooth.default \
+    audio.r_submix.default \
+    audio_policy.stub \
+    audio.usb.default \
+    libalsautils \
+    libaudio_aidl_conversion_common_ndk.vendor \
+    libaudiofoundation.vendor \
+    libnbaio_mono \
+    libtinycompress \
+    libxml2.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend \
