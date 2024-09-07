@@ -92,6 +92,10 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libdrm.vendor
 
+# DRM
+PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-V1-ndk \
