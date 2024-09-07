@@ -65,6 +65,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio.common-V1-ndk.vendor \
     android.hardware.audio.service \
     android.hardware.audio@7.1-impl \
     android.hardware.audio.effect@7.0-impl \
@@ -82,9 +83,22 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-V3-ndk.vendor \
     android.hardware.bluetooth.audio-impl \
     libbluetooth_audio_session \
     android.hardware.bluetooth@1.1.vendor
+
+# Camera
+PRODUCT_PACKAGES += \
+    android.frameworks.displayservice@1.0.vendor \
+    android.hardware.camera.common-V1-ndk.vendor \
+    android.hardware.camera.common-V2-ndk.vendor \
+    android.hardware.camera.device-V2-ndk.vendor \
+    android.hardware.camera.device@1.0.vendor \
+    android.hardware.camera.device@3.6.vendor \
+    android.hardware.camera.metadata-V2-ndk.vendor \
+    android.hardware.camera.provider-V2-ndk.vendor \
+    android.hardware.camera.provider@2.6.vendor
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -93,6 +107,10 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
+    android.hardware.graphics.allocator-V1-ndk.vendor \
+    android.hardware.graphics.common-V3-ndk.vendor \
+    android.hardware.graphics.common-V4-ndk.vendor \
+    android.hardware.graphics.composer3-V2-ndk.vendor \
     android.hardware.memtrack-service.mediatek-mali \
     libhwc2on1adapter \
     libhwc2onfbadapter \
@@ -102,6 +120,21 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper-V1-ndk.vendor
+
+# GNSS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
+    android.hardware.gnss.visibility_control@1.0.vendor \
+    android.hardware.gnss-V3-ndk.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.1.vendor \
+    libcurl.vendor \
+    libexpat.vendor \
+    libunwindstack.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-V1-ndk \
@@ -110,8 +143,33 @@ PRODUCT_PACKAGES += \
 
 # HIDL
 PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor \
     libhidltransport \
     libhwbinder
+
+# Keymint
+PRODUCT_PACKAGES += \
+    android.hardware.secure_element-V1-ndk.vendor \
+    android.hardware.security.keymint-V3-ndk.vendor \
+    android.hardware.security.rkp-V3-ndk.vendor \
+    android.hardware.security.secureclock-V1-ndk.vendor \
+    android.hardware.security.sharedsecret-V1-ndk.vendor \
+    lib_android_keymaster_keymint_utils.vendor \
+    libkeymint.vendor \
+    libkeymaster_messages.vendor \
+    libkeymaster_portable.vendor \
+    android.hardware.hardware_keystore.xml
+
+# Light
+PRODUCT_PACKAGES += \
+    android.hardware.light-V1-ndk.vendor \
+    android.hardware.light-V2-ndk.vendor \
+    android.hardware.light@2.0.vendor
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power-V4-ndk.vendor \
+    android.hardware.power@1.2.vendor
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -155,6 +213,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
 # Radio
+PRODUCT_PACKAGES += \
+    android.hardware.radio-V2-ndk.vendor \
+    android.hardware.radio.config-V2-ndk.vendor \
+    android.hardware.radio.data-V2-ndk.vendor \
+    android.hardware.radio.ims-V1-ndk.vendor \
+    android.hardware.radio.messaging-V2-ndk.vendor \
+    android.hardware.radio.modem-V2-ndk.vendor \
+    android.hardware.radio.network-V2-ndk.vendor \
+    android.hardware.radio.sap-V1-ndk.vendor \
+    android.hardware.radio.sim-V2-ndk.vendor \
+    android.hardware.radio.voice-V2-ndk.vendor
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-mediatek.xml
 
@@ -177,17 +247,42 @@ PRODUCT_PACKAGES += \
     fstab.mt6878.vendor_ramdisk \
     init.recovery.mt6878.rc
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-V1-ndk.vendor
+
 # Sensors
 PRODUCT_PACKAGES += \
+    android.frameworks.sensorservice@1.0.vendor \
+    android.hardware.sensors@1.0.vendor \
+    android.hardware.sensors@2.1.vendor \
     libsensorndkbridge
+
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal-V1-ndk.vendor
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
+# USB
+PRODUCT_PACKAGES += \
+    android.frameworks.stats-V1-ndk.vendor \
+    android.hardware.usb-V1-ndk.vendor \
+    android.hardware.usb.gadget-V1-ndk.vendor
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-V2-ndk.vendor
+
 # Wifi
 PRODUCT_PACKAGES += \
+    android.hardware.tetheroffload-V1-ndk.vendor \
+    android.hardware.wifi-V1-ndk.vendor \
+    android.hardware.wifi.hostapd-V1-ndk.vendor \
+    android.hardware.wifi.supplicant-V2-ndk.vendor \
     android.hardware.wifi-service \
     wpa_supplicant \
     hostapd \
