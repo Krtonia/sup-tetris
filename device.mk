@@ -140,5 +140,13 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/mediatek \
     $(LOCAL_PATH)
 
+# Wifi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi-service \
+    wpa_supplicant \
+    hostapd \
+    libkeystore-wifi-hidl \
+    libkeystore-engine-wifi-hidl
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/nothing/tetris/tetris-vendor.mk)
