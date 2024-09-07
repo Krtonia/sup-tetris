@@ -255,6 +255,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6878.vendor_ramdisk \
     init.recovery.mt6878.rc
 
+# Text classifier
+PRODUCT_PACKAGES += \
+    libtextclassifier_hash.vendor
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal-V1-ndk.vendor
