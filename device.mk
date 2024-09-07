@@ -166,6 +166,14 @@ PRODUCT_PACKAGES += \
     android.hardware.light-V2-ndk.vendor \
     android.hardware.light@2.0.vendor
 
+# Media (C2)
+PRODUCT_PACKAGES += \
+    libavservices_minijail.vendor \
+    libcodec2_hidl@1.2.vendor \
+    libcodec2_soft_common.vendor \
+    libsfplugin_ccodec_utils.vendor \
+    libutilscallstack.vendor
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V4-ndk.vendor \
