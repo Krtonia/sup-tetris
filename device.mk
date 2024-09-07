@@ -74,6 +74,12 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libxml2.vendor
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.audio-impl \
+    libbluetooth_audio_session \
+    android.hardware.bluetooth@1.1.vendor
+
 # Charger
 PRODUCT_PACKAGES += \
     libsuspend \
