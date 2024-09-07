@@ -85,6 +85,13 @@ PRODUCT_PACKAGES += \
     libsuspend \
     libdrm
 
+# Display
+PRODUCT_PACKAGES += \
+    android.hardware.memtrack-service.mediatek-mali \
+    libhwc2on1adapter \
+    libhwc2onfbadapter \
+    libdrm.vendor
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-V1-ndk \
@@ -122,6 +129,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/mediatek \
     $(LOCAL_PATH)
 
 # Inherit the proprietary files
