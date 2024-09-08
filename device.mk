@@ -185,6 +185,9 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec_utils.vendor \
     libutilscallstack.vendor
 
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V4-ndk.vendor \
