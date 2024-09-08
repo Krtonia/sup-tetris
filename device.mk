@@ -254,6 +254,21 @@ $(call inherit-product, device/nothing/tetris-kernel/kernel.mk)
 
 # Rootdir
 PRODUCT_PACKAGES += \
+    init.board_id.sh \
+    init.board_id.rc \
+    init.insmod.sh \
+    init.insmod.mt6878.cfg \
+    init.cgroup.rc \
+    init.connectivity.rc \
+    init.connectivity.common.rc \
+    init.modem.rc \
+    init.mt6878.rc \
+    init.mt6878.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.sensor_2_0.rc \
+    ueventd.mt6878.rc \
+    fstab.mt6878 \
     fstab.mt6878.vendor_ramdisk \
     init.recovery.mt6878.rc
 
