@@ -63,6 +63,13 @@ BOARD_SHIPPING_API_LEVEL := 34
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Overlays
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayTetris \
+    SystemUIOverlayTetris \
+    TelephonyOverlayTetris \
+    WifiResOverlayTetris
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-V1-ndk.vendor \
