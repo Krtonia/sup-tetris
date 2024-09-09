@@ -345,10 +345,11 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd-V1-ndk.vendor \
     android.hardware.wifi.supplicant-V2-ndk.vendor \
     android.hardware.wifi-service \
-    wpa_supplicant \
     hostapd \
     libkeystore-wifi-hidl \
-    libkeystore-engine-wifi-hidl
+    libkeystore-engine-wifi-hidl \
+    libwifi-hal-wrapper \
+    wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
