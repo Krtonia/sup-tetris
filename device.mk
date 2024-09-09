@@ -283,6 +283,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.mediatek \
     android.hardware.vibrator-V2-ndk.vendor
 
 # Wifi
