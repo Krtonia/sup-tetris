@@ -92,10 +92,6 @@
         <fqname>ISecureElement/SIM1</fqname>
         <fqname>ISecureElement/SIM2</fqname>
     </hal>
-    <hal format="aidl">
-        <name>android.hardware.soundtrigger3</name>
-        <fqname>ISoundTriggerHw/default</fqname>
-    </hal>
     <hal format="hidl">
         <name>vendor.cnce.hardware.facsvc</name>
         <transport>hwbinder</transport>
