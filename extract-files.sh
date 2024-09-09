@@ -53,6 +53,17 @@ if [ -z "${SRC}" ]; then
     SRC="adb"
 fi
 
+function blob_fixup() {
+    case "${1}" in
+        vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc)
+            sed -i 's|android.hardware.graphics.allocator@4.0-service-mediatek|mt6878/android.hardware.graphics.allocator@4.0-service-mediatek.mt6878|g' "${2}"
+            ;;
+        vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc)
+            sed -i 's|android.hardware.graphics.allocator-V2-service-mediatek|android.hardware.graphics.allocator-V2-service-mediatek.mt6878|g' "${2}"
+            ;;
+    esac
+}
+
 # Initialize the helper
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false "${CLEAN_VENDOR}"
 
