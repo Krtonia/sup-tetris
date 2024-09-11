@@ -2435,11 +2435,10 @@ vendor/lib64/vendor.mediatek.hardware.nvram-V1-ndk.so
 # Picture Quality
 vendor/bin/hw/vendor.mediatek.hardware.mmlpq@V1-service
 vendor/bin/hw/vendor.mediatek.hardware.pq_aidl-service
-vendor/etc/cust_pq.xml
 vendor/etc/init/vendor.mediatek.hardware.mmlpq@V1-service.rc
 vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc
 vendor/etc/pq_flag.xml
-vendor/etc/samsung,s6e8fc3x02_pq.xml
+vendor/etc/samsung,s6e8fc3x02_pq.xml:vendor/etc/cust_pq.xml
 vendor/etc/vintf/manifest/manifest_mmlpq.xml
 vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so
