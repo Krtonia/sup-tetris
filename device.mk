@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     SettingsResTetris \
     SystemUIOverlayTetris \
     TelephonyOverlayTetris \
+    UpdaterResTetris \
     WifiResOverlayTetris
 
 # APNs
