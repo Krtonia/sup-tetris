@@ -100,6 +100,7 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    android.hardware.bluetooth-V1-ndk.vendor \
     android.hardware.bluetooth.audio-V3-ndk.vendor \
     android.hardware.bluetooth.audio-impl \
     libbluetooth_audio_session \
