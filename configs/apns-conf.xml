@@ -38753,7 +38753,7 @@
        roaming_protocol="IPV4V6"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="00"
@@ -38874,7 +38874,7 @@
        roaming_protocol="IPV4V6"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="02"
@@ -38977,7 +38977,7 @@
        roaming_protocol="IPV4V6"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="04"
@@ -39038,7 +39038,7 @@
        roaming_protocol="IPV4V6"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="07"
@@ -39084,7 +39084,7 @@
        roaming_protocol="IP"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="08"
@@ -39261,7 +39261,7 @@
        roaming_protocol="IPV4V6"
   />
   <apn
-       carrier="中国移动 (China Mobile) WAP&MMS"
+       carrier="中国移动 (China Mobile) WAP&amp;MMS"
        carrier_id="1435"
        mcc="460"
        mnc="13"
