@@ -71,6 +71,10 @@ PRODUCT_PACKAGES += \
     TelephonyOverlayTetris \
     WifiResOverlayTetris
 
+# APNs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-V1-ndk.vendor \
