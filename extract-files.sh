@@ -65,7 +65,7 @@ function blob_fixup() {
             sed -i 's|android.hardware.graphics.allocator@4.0-service-mediatek|mt6878/android.hardware.graphics.allocator@4.0-service-mediatek.mt6878|g' "${2}"
             ;;
         vendor/etc/init/android.hardware.graphics.allocator-V2-service-mediatek.rc)
-            sed -i 's|android.hardware.graphics.allocator-V2-service-mediatek|android.hardware.graphics.allocator-V2-service-mediatek.mt6878|g' "${2}"
+            sed -i 's|android.hardware.graphics.allocator-V2-service-mediatek|mt6878/android.hardware.graphics.allocator-V2-service-mediatek.mt6878|g' "${2}"
             ;;
         vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc)
             sed -i 's|start|enable|g' "$2"
