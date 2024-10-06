@@ -1115,6 +1115,10 @@ on boot
     chmod 770 /proc/nt_value_check/value_check_node
     chown system system /proc/nt_value_check/value_check_node
 
+    # Disable serial console
+    stop console
+
+
 #NT core
 on property:sys.system_server.start_count=1
     write /sys/devices/virtual/NT/NT_reserve_kernel_log/boot_stage_systemserver 1
