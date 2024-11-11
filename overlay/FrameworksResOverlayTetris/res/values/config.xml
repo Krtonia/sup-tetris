@@ -496,4 +496,7 @@
         <item>2109</item>
         <item>93</item>
     </integer-array>
+
+    <!-- Whether to use Richtap vibration -->
+    <bool name="config_usesRichtapVibration">true</bool>
 </resources>

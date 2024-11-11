@@ -1,0 +1,2 @@
+type proc_vibrator, fs_type, proc_type;
+type aac_richtap_dev_device, dev_type;
