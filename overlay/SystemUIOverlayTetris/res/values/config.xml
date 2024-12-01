@@ -19,4 +19,47 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Doze: does this device support STATE_DOZE?  -->
     <bool name="doze_display_state_supported">true</bool>
+
+    <!-- Whether to enable framework dimming for UDFPS -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Boolean to enable/disable the UDFPS onPress node functionality -->
+    <bool name="config_enableUdfpsSysfsNodes">true</bool>
+
+    <!-- Array of brightness-alpha lut for framework dimming -->
+    <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
+        <item>0,231</item>
+        <item>14,231</item>
+        <item>28,228</item>
+        <item>41,225</item>
+        <item>55,221</item>
+        <item>68,217</item>
+        <item>96,212</item>
+        <item>110,209</item>
+        <item>124,206</item>
+        <item>137,203</item>
+        <item>152,201</item>
+        <item>165,199</item>
+        <item>179,195</item>
+        <item>192,194</item>
+        <item>206,193</item>
+        <item>219,191</item>
+        <item>234,190</item>
+        <item>248,190</item>
+        <item>261,188</item>
+        <item>275,187</item>
+        <item>496,170</item>
+        <item>703,160</item>
+        <item>1667,107</item>
+        <item>2177,98</item>
+        <item>2646,83</item>
+        <item>3515,68</item>
+    </string-array>
+
+    <!-- Array of UDFPS node paths -->
+    <string-array name="config_udfpsSysfsNodePaths">
+        <item>/sys/devices/platform/soc/1401a000.dsi0/hbm</item>
+        <item>/sys/panel_feature/ui_status</item>
+    </string-array>
+
 </resources>
