@@ -41,9 +41,6 @@ IGNORE_PREFER32_ON_DEVICE := true
 TARGET_NO_BOOTLOADER := true
 TARGET_BOOTLOADER_BOARD_NAME := Tetris
 
-# Bootanimation
-TARGET_USES_MURENA_BOOTANIMATION := true
-
 # Display
 TARGET_SCREEN_DENSITY := 420
 
@@ -110,6 +107,9 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
+# Reserve space for GAPPS
+-include vendor/lineage/config/BoardConfigReservedSize.mk
+
 # Platform
 BOARD_HAS_MTK_HARDWARE := true
 TARGET_BOARD_PLATFORM := mt6878
@@ -132,8 +132,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security patch level
 VENDOR_SECURITY_PATCH := 2024-05-05
 
-# Sepolicy
--include device/mediatek/sepolicy_vndr/SEPolicy.mk
+# SELinux
+-include device/nothing/tetris/sepolicy/mtk/SEPolicy.mk
+-include device/nothing/tetris/sepolicy/prop/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot

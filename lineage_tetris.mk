@@ -1,4 +1,3 @@
-
 #
 # Copyright (C) 2022 The LineageOS Project
 #
@@ -27,3 +26,22 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="Tetris 14 UP1A.231005.007 2412042338 release-keys"
 
 BUILD_FINGERPRINT := Nothing/Tetris/Tetris:14/UP1A.231005.007/2412042338:user/release-keys
+
+# Project Matrixx Flags
+
+# GMS
+WITH_GMS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_STOCK_AICORE := true
+
+# Pixel Launcher
+TARGET_INCLUDE_NEXUS := true
+
+# Maintainer
+MATRIXX_MAINTAINER := schoosh
+
+# Info
+MATRIXX_CHIPSET := MediaTek Dimensity 7300
+MATRIXX_BATTERY := 5000mAh
+MATRIXX_DISPLAY := 1080x2400
