@@ -54,6 +54,7 @@ BOARD_KERNEL_OFFSET := 0x00008000
 BOARD_RAMDISK_OFFSET := 0x26f08000
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_BOOTCONFIG += androidboot.init_fatal_reboot_target=recovery
+BOARD_BOOTCONFIG := androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_DTB_OFFSET := 0x1BF8040
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
@@ -107,7 +108,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # Reserve space for GAPPS
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/aosp/config/BoardConfigReservedSize.mk
 
 # Platform
 BOARD_HAS_MTK_HARDWARE := true
