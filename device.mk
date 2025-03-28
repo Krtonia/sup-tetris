@@ -11,6 +11,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Fingerprint
+#TARGET_HAS_UDFPS := true # This is commented out until the OSS hal is released.
+
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
