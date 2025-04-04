@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from Tetris_U2.6-241204-2338
+# All unpinned blobs are extracted from Tetris_V3.0-250208-2015_3.0
 
 # AAL
 vendor/lib64/libaal_cust_func.so
@@ -458,10 +458,7 @@ vendor/lib64/libcameracustom_camera_db_ext.so
 vendor/lib64/libcamxextension_night.so
 vendor/lib64/libccd.so
 vendor/lib64/libdpframework.so
-vendor/lib64/libdualcam_optical_zoom_control.so
-vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libfacerelight.so
-vendor/lib64/libfachwinfo.so
 vendor/lib64/libfeature.aiseg.so
 vendor/lib64/libfeature.face.so
 vendor/lib64/libfeature.fwmvp.so
@@ -867,8 +864,6 @@ vendor/lib64/mt6878/libcameracustom.plugin.so
 vendor/lib64/mt6878/libcameracustom.so
 vendor/lib64/mt6878/libcameracustom_camera_db_ext.so
 vendor/lib64/mt6878/libccd.so
-vendor/lib64/mt6878/libdualcam_optical_zoom_control.so
-vendor/lib64/mt6878/libdualcam_video_optical_zoom.so
 vendor/lib64/mt6878/libeffecthal.base.so
 vendor/lib64/mt6878/libfacerelight.so
 vendor/lib64/mt6878/libfeature.aiseg.so
@@ -1233,7 +1228,6 @@ vendor/etc/camera/CFR_para4_Nothing_M_v100-8_AI.bin
 vendor/etc/camera/CFR_para4_Nothing_UW_v101-5_AI.bin
 vendor/etc/camera/M_Rater_Defect_v1.0.14_arm64_ppl3.model
 vendor/etc/camera/Ndot-55.otf
-vendor/etc/camera/arcsoft_dualcam_calibration.bin
 vendor/etc/camera/bokeh_caldata_uw_golden.bin
 vendor/etc/camera/default_params.xml
 vendor/etc/camera/facesr.sensetime.model
@@ -2524,8 +2518,6 @@ vendor/bin/rcs_volte_stack
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/etc/MNL_Config.xml
-vendor/etc/apdb/APDB_MT6878___W2417
-vendor/etc/apdb/APDB_MT6878___W2417_ENUM
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
 vendor/etc/ecc_list_OP02.xml

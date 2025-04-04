@@ -14,7 +14,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from tetris device
 $(call inherit-product, device/nothing/tetris/device.mk)
 
-PRODUCT_NAME := aosp_tetris
+PRODUCT_NAME := lineage_tetris
 PRODUCT_DEVICE := tetris
 PRODUCT_BRAND := Nothing
 PRODUCT_MANUFACTURER := Nothing
@@ -22,7 +22,9 @@ PRODUCT_MODEL := A015
 
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="Tetris 14 UP1A.231005.007 2412042338 release-keys"
+DEVICE_CODENAME := tetris
 
-BUILD_FINGERPRINT := Nothing/Tetris/Tetris:14/UP1A.231005.007/2412042338:user/release-keys
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BuildDesc="Tetris 14 UP1A.231005.007 2412042338 release-keys" \
+    BuildFingerprint=Nothing/Tetris/Tetris:14/UP1A.231005.007/2412042338:user/release-keys \
+    DeviceProduct=$(DEVICE_CODENAME)
