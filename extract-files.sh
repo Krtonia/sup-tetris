@@ -74,6 +74,9 @@ function blob_fixup() {
         vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so)
             grep -q libui_shim.so "$2" || "$PATCHELF" --add-needed libui_shim.so "$2"
             ;;
+        vendor/lib64/hw/hwcomposer.mtk_common.so)
+            grep -q libprocessgroup_shim.so "$2" || "$PATCHELF" --add-needed libprocessgroup_>
+            ;;
     esac
 }
 
