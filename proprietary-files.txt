@@ -243,6 +243,18 @@ vendor/lib64/camera/node/com.nothing.node.y2y.so
 vendor/lib64/camera/node/com.nothing.node.yuvsr.so
 vendor/lib64/libntf.so
 vendor/lib64/libntcamyuv.so
+vendor/lib64/libntcamcommonutils.so
+vendor/lib64/libalCFR.so
+vendor/lib64/libntofflinepostproc.so
+vendor/lib64/libntcamimage_io.so
+vendor/lib64/libarcsoft_native_hdrbokeh_engine.so
+vendor/lib64/libmorpho_RapidEffect.so
+vendor/lib64/libntcamskia.so
+vendor/lib64/ov50d40_mipi_raw_IdxMgr.so
+vendor/lib64/gc16b3c2_mipi_raw_IdxMgr.so
+vendor/lib64/gc16b3ctxd2_mipi_raw_IdxMgr.so
+vendor/lib64/s5kgn9sp_mipi_raw_IdxMgr.so
+vendor/lib64/gc08a8_mipi_raw_IdxMgr.so
 vendor/lib64/gc16b3c_mipi_raw_IdxMgr.so
 vendor/lib64/gc16b3c_mipi_raw_tuning.so
 vendor/lib64/gc16b3ctxd_mipi_raw_IdxMgr.so
@@ -1471,6 +1483,8 @@ vendor/lib64/hw/mtkgeofence.default.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss-impl.so
 vendor/lib64/hw/vendor.mediatek.hardware.gnss.batching-impl.so
 vendor/lib64/libapmonitor_vendor.so
+vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so
+vendor/lib64/vendor.mediatek.hardware.apmonitor-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.gnss-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.gnss.batching-V1-ndk.so
 
@@ -2519,6 +2533,9 @@ vendor/bin/muxreport
 vendor/bin/rcs_volte_stack
 vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
+vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
+vendor/lib64/vendor.mediatek.hardware.rcs@2.0.so
+vendor/lib64/vendor.mediatek.hardware.rcs-V1-ndk.sos
 vendor/etc/MNL_Config.xml
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
