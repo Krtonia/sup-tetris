@@ -250,6 +250,7 @@ vendor/lib64/libntcamimage_io.so
 vendor/lib64/libarcsoft_native_hdrbokeh_engine.so
 vendor/lib64/libmorpho_RapidEffect.so
 vendor/lib64/libntcamskia.so
+vendor/lib64/libmtkltm.so
 vendor/lib64/ov50d40_mipi_raw_IdxMgr.so
 vendor/lib64/gc16b3c2_mipi_raw_IdxMgr.so
 vendor/lib64/gc16b3ctxd2_mipi_raw_IdxMgr.so
