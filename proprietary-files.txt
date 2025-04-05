@@ -241,6 +241,8 @@ vendor/lib64/camera/node/com.nothing.node.superportraitnight.so
 vendor/lib64/camera/node/com.nothing.node.watermark.so
 vendor/lib64/camera/node/com.nothing.node.y2y.so
 vendor/lib64/camera/node/com.nothing.node.yuvsr.so
+vendor/lib64/libntf.so
+vendor/lib64/libntcamyuv.so
 vendor/lib64/gc16b3c_mipi_raw_IdxMgr.so
 vendor/lib64/gc16b3c_mipi_raw_tuning.so
 vendor/lib64/gc16b3ctxd_mipi_raw_IdxMgr.so
