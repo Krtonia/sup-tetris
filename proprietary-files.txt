@@ -2535,7 +2535,7 @@ vendor/bin/volte_clientapi_ua
 vendor/bin/volte_rcs_ua
 vendor/lib64/vendor.mediatek.hardware.clientapi-V1-ndk.so
 vendor/lib64/vendor.mediatek.hardware.rcs@2.0.so
-vendor/lib64/vendor.mediatek.hardware.rcs-V1-ndk.sos
+vendor/lib64/vendor.mediatek.hardware.rcs-V1-ndk.so
 vendor/etc/MNL_Config.xml
 vendor/etc/ecc_list.xml
 vendor/etc/ecc_list_OP01.xml
