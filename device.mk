@@ -377,6 +377,7 @@ PRODUCT_PACKAGES += \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl \
     libwifi-hal-wrapper \
+    wifi_legacy \
     wpa_supplicant
 
 PRODUCT_COPY_FILES += \
