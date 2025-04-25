@@ -372,7 +372,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator.service.tetris
+    android.hardware.vibrator-V2-ndk.vendor
 
 # Wifi
 PRODUCT_PACKAGES += \
