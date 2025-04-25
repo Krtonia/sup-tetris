@@ -5,11 +5,6 @@ using namespace std;
 
 int main() {
     android::PowerExt powerExt = android::PowerExt();
-    if (powerExt.connected() == false) {
-        cout << "Failed to connect to power HAL" << endl;
-        return 1;
-    }
-
     int choice;
     string mode;
     bool enabled;
