@@ -7,10 +7,15 @@
 
 #include <aidl/android/hardware/power/IPower.h>
 
+#define PLOGE(...) \
+    ALOGE(__VA_ARGS__); \
+    mDeathCount++;
+
 namespace android {
 // Construction Workers
 PowerExt::PowerExt() {
     init();
+    mDeathCount = 0;
 }
 PowerExt::~PowerExt() {
     ALOGE("Destroying!");
@@ -18,7 +23,10 @@ PowerExt::~PowerExt() {
     mPowerHalExtAidl = nullptr;
 }
 bool PowerExt::connectHAL() {
-    if (mPowerHalAidl && mPowerHalExtAidl) {
+    if (mDeathCount > 5) {
+        ALOGE("Failed to connect power HAL too many times, reconnecting");
+        mDeathCount = 0;
+    } else if (mPowerHalAidl && mPowerHalExtAidl) {
         return true;
     }
 
@@ -54,7 +62,7 @@ void PowerExt::setMode(const std::string& mode, bool enabled) {
     }
     auto ret = mPowerHalExtAidl->setMode(mode, enabled);
     if (!ret.isOk()) {
-        ALOGE("failed to set mode: %s", mode.c_str());
+        PLOGE("failed to set mode: %s", mode.c_str());
     }
 }
 
@@ -66,7 +74,7 @@ bool PowerExt::isModeSupported(const std::string& mode) {
     bool supported;
     auto ret = mPowerHalExtAidl->isModeSupported(mode, &supported);
     if (!ret.isOk()) {
-        ALOGE("failed to check mode: %s", mode.c_str());
+        PLOGE("failed to check mode: %s", mode.c_str());
         return false;
     }
     ALOGE("isModeSupported: %s", supported ? "true" : "false");
@@ -80,7 +88,7 @@ void PowerExt::setBoost(const std::string& boost, int durationMs) {
     }
     auto ret = mPowerHalExtAidl->setBoost(boost, durationMs);
     if (!ret.isOk()) {
-        ALOGE("failed to set boost: %s", boost.c_str());
+        PLOGE("failed to set boost: %s", boost.c_str());
     }
 }
 
@@ -92,7 +100,7 @@ bool PowerExt::isBoostSupported(const std::string& boost) {
     bool supported;
     auto ret = mPowerHalExtAidl->isBoostSupported(boost, &supported);
     if (!ret.isOk()) {
-        ALOGE("failed to check boost: %s", boost.c_str());
+        PLOGE("failed to check boost: %s", boost.c_str());
         return false;
     }
     ALOGE("isBoostSupported: %s", supported ? "true" : "false");
@@ -106,7 +114,7 @@ void PowerExt::notifyAppState(const std::string& packActName, int pid, int uid, 
     }
     auto ret = mPowerHalExtAidl->notifyAppState(packActName, pid, uid, active);
     if (!ret.isOk()) {
-        ALOGE("failed to notify app state: %s", packActName.c_str());
+        PLOGE("failed to notify app state: %s", packActName.c_str());
     }
 }
 } // namespace android

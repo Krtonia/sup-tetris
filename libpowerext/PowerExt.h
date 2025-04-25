@@ -25,6 +25,7 @@ public:
 
 protected:
     bool connectHAL();
+    int mDeathCount;
     std::shared_ptr<IPower> mPowerHalAidl;
     std::shared_ptr<IPowerExt> mPowerHalExtAidl;
 };
