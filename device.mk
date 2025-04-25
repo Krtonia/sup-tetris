@@ -193,7 +193,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
     android.hardware.biometrics.common.thread.vendor \
-    libpowerext
+    libpowerext.vendor
 
 # Keymint
 PRODUCT_PACKAGES += \
