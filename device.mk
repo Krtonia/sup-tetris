@@ -148,6 +148,7 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
+    fpsgo \
     libdrm.vendor
 
 # DRM
@@ -192,9 +193,9 @@ TARGET_HAS_UDFPS := true
 
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
+    android.hardware.biometrics.common-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
     android.hardware.biometrics.fingerprint@2.1 \
-    fpsgo \
     libpowerext.vendor
 
 # Keymint
