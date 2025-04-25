@@ -194,6 +194,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
     android.hardware.biometrics.fingerprint@2.1 \
+    fpsgo \
     libpowerext.vendor
 
 # Keymint
