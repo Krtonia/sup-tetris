@@ -148,7 +148,6 @@ PRODUCT_PACKAGES += \
     libprocessgroup.vendor \
     libhwc2on1adapter \
     libhwc2onfbadapter \
-    fpsgo \
     libdrm.vendor
 
 # DRM
