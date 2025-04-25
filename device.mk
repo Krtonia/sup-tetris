@@ -193,7 +193,6 @@ TARGET_HAS_UDFPS := true
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
-    android.hardware.biometrics.common.thread.vendor \
     android.hardware.biometrics.fingerprint@2.1 \
     libpowerext.vendor
 
