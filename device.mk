@@ -11,6 +11,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Project ID Quota
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+# Fingerprint
+TARGET_HAS_UDFPS := true
+
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
@@ -186,13 +189,6 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor
-
-# Fingerprint
-TARGET_HAS_UDFPS := true
-
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint-V4-ndk.vendor \
-    android.hardware.biometrics.common.util.vendor \
 
 # Keymint
 PRODUCT_PACKAGES += \
