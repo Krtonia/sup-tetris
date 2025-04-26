@@ -462,7 +462,7 @@
     <integer name="config_shutdownBatteryTemperature">600</integer>
 
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
-    <string translatable="false" name="config_dozeTapSensorType">com.google.sensor.single_touch</string>
+    <string translatable="false" name="config_dozeTapSensorType">co.aospa.sensor.udfps</string>
 
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
