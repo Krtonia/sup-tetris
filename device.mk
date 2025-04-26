@@ -194,8 +194,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
-    android.hardware.biometrics.common.thread.vendor \
-    libpowerext
+    android.hardware.biometrics.common.thread.vendor
 
 # Keymint
 PRODUCT_PACKAGES += \
@@ -235,7 +234,8 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-V4-ndk.vendor \
-    android.hardware.power@1.2.vendor
+    android.hardware.power@1.2.vendor \
+    libpowerext.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/power/,$(TARGET_COPY_OUT_VENDOR)/etc)
