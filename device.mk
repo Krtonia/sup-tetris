@@ -235,6 +235,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-V4-ndk.vendor \
     android.hardware.power@1.2.vendor \
+    powerext_native_test \
     libpowerext.vendor
 
 PRODUCT_COPY_FILES += \
