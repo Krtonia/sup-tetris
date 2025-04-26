@@ -8,3 +8,4 @@
 
 # Charger
 /sys/devices/platform/nt_chg/power_supply/nt-chg/type(/.*)?              u:object_r:sysfs_ntchg:s0
+

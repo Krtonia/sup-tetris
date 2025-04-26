@@ -13,9 +13,9 @@
 
 #include "aac_vibra_function.h"
 
-#define RICHTAP_LIGHT_STRENGTH 700
-#define RICHTAP_MEDIUM_STRENGTH 1400
-#define RICHTAP_STRONG_STRENGTH 3400
+#define RICHTAP_LIGHT_STRENGTH 69
+#define RICHTAP_MEDIUM_STRENGTH 89
+#define RICHTAP_STRONG_STRENGTH 99
 
 namespace aidl {
 namespace android {
