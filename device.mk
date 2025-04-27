@@ -188,8 +188,6 @@ PRODUCT_PACKAGES += \
     libhwbinder.vendor
 
 # Fingerprint
-TARGET_HAS_UDFPS := true
-
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common-V4-ndk.vendor \
