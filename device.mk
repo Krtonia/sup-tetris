@@ -237,10 +237,7 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkpower@1.2.vendor \
     android.hardware.power-service-mediatek \
     android.hardware.power-V4-ndk.vendor \
-    android.hardware.power@1.2.vendor \
-    lmodroid-power-ext-V1-ndk.vendor \
-    powerext_native_test \
-    libpowerext.vendor
+    android.hardware.power@1.2.vendor
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/power/,$(TARGET_COPY_OUT_VENDOR)/etc)
