@@ -271,6 +271,7 @@
           "0-7"
         ],
         "ResetOnInit": true
+      },
       {
         "Name": "PowerHALMainState",
         "Path": "vendor.powerhal.state",
@@ -288,9 +289,15 @@
         "Path": "vendor.powerhal.rendering",
         "Values": ["EXPENSIVE_RENDERING", ""],
         "Type": "Property"
-      }
+      },
     ],
     "Actions": [
+      {
+        "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
+        "Node": "PowerHALAudioState",
+        "Duration": 0,
+        "Value": "AUDIO_STREAMING_LOW_LATENCY"
+      },
       {
         "PowerHint": "AUDIO_STREAMING_LOW_LATENCY",
         "Node": "CPUEfficiencyClusterMinFreq",
@@ -302,6 +309,12 @@
         "Node": "CPUSuperClusterMinFreq",
         "Duration": 0,
         "Value": "250000"
+      },
+      {
+        "PowerHint": "SUSTAINED_PERFORMANCE",
+        "Node": "PowerHALMainState",
+        "Duration": 0,
+        "Value": "SUSTAINED_PERFORMANCE"
       },
       {
         "PowerHint": "SUSTAINED_PERFORMANCE",
