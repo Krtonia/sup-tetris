@@ -77,7 +77,7 @@ ndk::ScopedAStatus Vibrator::perform(Effect effect, EffectStrength es,
     int32_t strength;
 
     if (effect == Effect::TICK || effect == Effect::CLICK)
-         effect = Effect::THUD;
+        effect = Effect::THUD;
 
     if (effect < Effect::CLICK || effect > Effect::HEAVY_CLICK)
         return ndk::ScopedAStatus(AStatus_fromExceptionCode(EX_UNSUPPORTED_OPERATION));
