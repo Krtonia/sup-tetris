@@ -404,7 +404,7 @@ PRODUCT_PACKAGES += \
     hostapd \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl \
-    libwifi-hal-wrapper \
+    libwifi-hal-wrapper:64 \
     wifi_legacy \
     wpa_supplicant \
     wificond
