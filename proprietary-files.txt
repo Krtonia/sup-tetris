@@ -2810,8 +2810,8 @@ vendor/lib64/vendor.aac.hardware.richtap.vibrator-V2-ndk.so
 # Richtap - from eqs 14-U1SQS34.52-21-1-10 504bf-893e0 release-keys
 -vendor/lib64/libaacvibrator.so|a58aac68c3a3a964adfcda9bb948aa7eef089f58
 
-# Richtap config - from Spacewar NOS3.0-250303-1817
-vendor/etc/aac_richtap.config|242d4c1ab550784e011fee3c5d21fef04131534b
+# Richtap config
+vendor/etc/aac_richtap.config
 
 # Wi-Fi
 vendor/bin/conninfra_loader
