@@ -24,7 +24,7 @@
     <bool name="config_udfpsFrameworkDimming">true</bool>
 
     <!-- Boolean to enable/disable the UDFPS onPress node functionality -->
-    <bool name="config_enableUdfpsSysfsNodes">true</bool>
+    <bool name="config_enableUdfpsSysfsNodes">false</bool>
 
     <!-- Array of brightness-alpha lut for framework dimming -->
     <string-array name="config_udfpsDimmingBrightnessAlphaArray" translatable="false">
