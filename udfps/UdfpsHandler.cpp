@@ -70,6 +70,7 @@ class NothingUdfpsHandler : public UdfpsHandler {
                 } else {
                     LOG(INFO) << "Skipping unconfigureDisplay — finger is still down";
                 }
+            }
         }).detach();
     }
 
