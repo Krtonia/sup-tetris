@@ -35,9 +35,6 @@ static bool readBool(int fd) {
 }
 
 class NothingUdfpsHandler : public UdfpsHandler {
-  private:
-    std::atomic<bool> mFingerDown = false;
-
   public:
     void init(fingerprint_device_t* device) {
         mDevice = device;
@@ -65,22 +62,18 @@ class NothingUdfpsHandler : public UdfpsHandler {
                 bool status1 = readBool(fd1);
                 bool status2 = readBool(fd2);
                 int combined = (status1 || status2) ? 1 : 0;
-                if (!mFingerDown.load()) {
-                    mDevice->goodixExtCmd(mDevice, combined, 0);
-                } else {
-                    LOG(INFO) << "Skipping unconfigureDisplay — finger is still down";
-                }
+
+                mDevice->goodixExtCmd(mDevice, combined, 0);
+            }
         }).detach();
     }
 
     void onFingerDown(uint32_t /*x*/, uint32_t /*y*/, float /*minor*/, float /*major*/) {
-        mFingerDown.store(true);
-        LOG(INFO) << "Finger down";
+        // nothing
     }
 
     void onFingerUp() {
-        mFingerDown.store(false);
-        LOG(INFO) << "Finger up";
+        // nothing
     }
 
     void onAcquired(int32_t /*result*/, int32_t /*vendorCode*/) {
