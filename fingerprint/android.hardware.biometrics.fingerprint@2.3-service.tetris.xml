@@ -1,16 +1,10 @@
 <manifest version="1.0" type="device">
-    <hal format="aidl">
+    <hal format="hidl">
         <name>android.hardware.biometrics.fingerprint</name>
-        <version>3</version>
+        <transport>hwbinder</transport>
+        <version>2.3</version>
         <interface>
-            <name>IFingerprint</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="aidl">
-        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
-        <interface>
-            <name>IGoodixFingerprintDaemon</name>
+            <name>IBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
     </hal>
