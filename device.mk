@@ -189,14 +189,10 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.tetris \
     android.hardware.biometrics.fingerprint-V4-ndk.vendor \
     android.hardware.biometrics.common-V4-ndk.vendor \
     android.hardware.biometrics.common.util.vendor \
-    android.hardware.biometrics.common.thread.vendor \
-    libudfpshandler
-
-$(call soong_config_set,surfaceflinger,udfps_lib,//device/nothing/tetris:libudfps_extension.tetris)
+    android.hardware.biometrics.common.thread.vendor
 
 # Keymint
 PRODUCT_PACKAGES += \
