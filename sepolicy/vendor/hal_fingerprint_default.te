@@ -4,6 +4,17 @@ allow hal_fingerprint_default proc_touchpanel:file rw_file_perms;
 allow hal_fingerprint_default proc_touchpanel:dir r_dir_perms;
 allow hal_fingerprint_default vendor_sysfs_graphics:file rw_file_perms;
 allow hal_fingerprint_default boot_status_prop:file { read open getattr watch watch_reads map };
+allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
+
+allow hal_fingerprint_default {
+  fingerprint_device
+  tee_device
+}:chr_file rw_file_perms;
+
+set_prop(hal_fingerprint_default, system_fingerprint_prop)
+get_prop(hal_fingerprint_default, system_fingerprint_prop)
+
+r_dir_file(hal_fingerprint_default, vendor_sysfs_graphics)
 
 get_prop(hal_fingerprint_default, vendor_fp_prop);
 set_prop(hal_fingerprint_default, vendor_fp_prop)
