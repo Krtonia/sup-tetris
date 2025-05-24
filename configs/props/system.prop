@@ -66,5 +66,3 @@ mediatek.wlan.ctia=0
 wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 
-# Fingerprint
-ro.bootloader.locked=0
