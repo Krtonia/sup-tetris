@@ -466,6 +466,9 @@
 
     <!-- Is the device capable of hot swapping an UICC Card -->
     <bool name="config_hotswapCapable">true</bool>
+    
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
 
     <!-- Whether the device supports Smart Pixels -->
      <bool name="config_supportSmartPixels">true</bool>
