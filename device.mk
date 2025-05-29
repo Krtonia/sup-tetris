@@ -68,9 +68,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-lineage
-
 PRODUCT_PACKAGES += \
     FrameworksResOverlayTetris \
     SettingsResTetris \
@@ -129,9 +126,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.metadata-V2-ndk.vendor \
     android.hardware.camera.provider-V2-ndk.vendor \
     android.hardware.camera.provider@2.6.vendor
-
-PRODUCT_PACKAGES += \
-    ApertureOverlayTetris
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -405,10 +399,9 @@ PRODUCT_PACKAGES += \
     hostapd \
     libkeystore-wifi-hidl \
     libkeystore-engine-wifi-hidl \
-    libwifi-hal-wrapper:64 \
+    libwifi-hal-wrapper \
     wifi_legacy \
-    wpa_supplicant \
-    wificond
+    wpa_supplicant
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/wifi/,$(TARGET_COPY_OUT_VENDOR)/etc/wifi)
