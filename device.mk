@@ -392,6 +392,10 @@ PRODUCT_PACKAGES += \
     android.hardware.usb-V1-ndk.vendor \
     android.hardware.usb.gadget-V1-ndk.vendor
 
+# UDFPS
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.3-service.nothing_tetris
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.tetris

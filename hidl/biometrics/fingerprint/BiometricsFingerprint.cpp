@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.nothing"
+#define LOG_TAG "android.hardware.biometrics.fingerprint@2.3-service.nothing_tetris"
 
 #include <hardware/hw_auth_token.h>
 
@@ -16,6 +16,8 @@
 
 #include <inttypes.h>
 #include <unistd.h>
+#include <fstream>
+#include <cmath>
 
 namespace android {
 namespace hardware {
