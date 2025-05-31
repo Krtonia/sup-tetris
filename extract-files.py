@@ -31,7 +31,7 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
-    ('system_ext/lib64/libsource.so', 'vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so'): blob_fixup()
+    ('system_ext/lib64/libsource.so', 'vendor/lib64/hw/mt6878/vendor.mediatek.hardware.pq_aidl-impl.so', 'vendor/lib64/hw/vendor.mediatek.hardware.pq_aidl-impl.so'): blob_fixup()
         .add_needed('libui_shim.so'),
     ('system_ext/etc/init/init.vtservice.rc', 'vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc'): blob_fixup()
         .regex_replace('start', 'enable'),
