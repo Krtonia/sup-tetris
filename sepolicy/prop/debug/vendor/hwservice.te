@@ -1,5 +1,0 @@
-# ==============================================
-# MTK Policy Rule
-# ==============================================
-
-type mtk_hal_aee_hwservice, hwservice_manager_type;
