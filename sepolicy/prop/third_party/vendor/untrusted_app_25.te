@@ -1,2 +1,0 @@
-# untrusted_app_25 for TUI
-allow untrusted_app_25 mobicore_vendor_file:dir search;

@@ -134,10 +134,10 @@ VENDOR_SECURITY_PATCH := 2025-02-08
 
 # SELinux
 -include device/mediatek/sepolicy_vndr/SEPolicy.mk
--include device/nothing/tetris/sepolicy/prop/SEPolicy.mk
 
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

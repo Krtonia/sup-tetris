@@ -1,2 +1,0 @@
-# For vendor.mbrain.enabled
-get_prop(mtk_hal_power, vendor_mtk_mbrain_prop)

@@ -1,9 +1,0 @@
-# ==============================================
-# MTK Policy Rule
-# ==============================================
-
-allow hal_bluetooth_client mtk_hal_bluetooth_hwservice:hwservice_manager find;
-
-# Date 2023/02/13
-# Purpose: Allow to set/get bluetooth_leaudio_offload_prop
-set_prop(hal_bluetooth, bluetooth_leaudio_offload_prop)
