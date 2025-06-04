@@ -8,13 +8,28 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Infinity-X stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Inherit from tetris device
 $(call inherit-product, device/nothing/tetris/device.mk)
 
-PRODUCT_NAME := aosp_tetris
+# Infinity Flags
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_INCLUDE_ACCORD := false
+EXTRA_UDFPS_ICONS := true
+TARGET_HAS_UDFPS := trueAdd commentMore actions
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := Shikhar
+TARGET_SUPPORTS_BLUR := false
+
+# Gapps
+WITH_GAPPS := true
+
+# Device Specific flags
+PRODUCT_NAME := infinity_tetris
 PRODUCT_DEVICE := tetris
 PRODUCT_BRAND := Nothing
 PRODUCT_MANUFACTURER := Nothing
