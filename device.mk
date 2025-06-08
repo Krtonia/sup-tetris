@@ -389,8 +389,8 @@ PRODUCT_PACKAGES += \
 # USB
 PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-ndk.vendor \
-    android.hardware.usb-V1-ndk.vendor \
-    android.hardware.usb.gadget-V1-ndk.vendor
+    android.hardware.usb-service.mediatek \
+    android.hardware.usb.gadget-service.mediatek
 
 # Vibrator
 PRODUCT_PACKAGES += \
