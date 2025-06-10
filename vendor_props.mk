@@ -495,6 +495,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Vendor logtag
 PRODUCT_PROPERTY_OVERRIDES += \
+    persist.log.tag.OpenGLRenderer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.hwcomposer=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.TRS=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.APM-KpiMonitor=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.APM-ServiceJ=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.APM-SessionJ=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.APM-SessionN=$(VENDOR_LOG_LEVEL) \
+    persist.log.tag.APM-Subscriber=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.AT=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.AdnRecord=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.AdnRecordCache=$(VENDOR_LOG_LEVEL) \
