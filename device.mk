@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator.service.tetris
 
+# VNDK
+PRODUCT_PACKAGES += \
+    libutils.vendor
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.tetheroffload-V1-ndk.vendor \
