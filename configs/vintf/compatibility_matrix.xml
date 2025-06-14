@@ -1,5 +1,4 @@
-<compatibility-matrix version="7.0" type="framework" level="8"> 
-<hal format="aidl" optional="true">
+<compatibility-matrix version="7.0" type="framework"> <hal format="aidl" optional="true">
         <name>android.hardware.bluetooth</name>
         <interface>
             <name>IBluetoothHci</name>
@@ -186,19 +185,38 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>android.hardware.biometrics.fingerprint</name>
-        <version>3</version>
+    <hal format="hidl" optional="true">
+        <name>vendor.goodix.hardware.biometrics.fingerprint</name>
+        <version>2.1</version>
         <interface>
-            <name>IFingerprint</name>
+            <name>IGoodixFingerprintDaemon</name>
             <instance>default</instance>
-            <instance>virtual</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonExt</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonFido</name>
+            <instance>default</instance>
+        </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonHbd</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.goodix.hardware.biometrics.fingerprint</name>
         <interface>
             <name>IGoodixFingerprintDaemon</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.goodix.hardware.fingerprintextension</name>
+        <version>1.0</version>
+        <interface>
+            <name>IGoodixBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
     </hal>
