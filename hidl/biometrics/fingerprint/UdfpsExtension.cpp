@@ -13,7 +13,7 @@ uint32_t getUdfpsDimZOrder(uint32_t z) {
 
 uint32_t getUdfpsZOrder(uint32_t z, bool touched) {
     if (touched) {
-        z |= 150994948;
+        z |= 0x20000000u;
     }
     return z;
 }

@@ -286,7 +286,7 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint-service.nothing
+    android.hardware.biometrics.fingerprint@2.3-service.nothing
 
 $(call soong_config_set,surfaceflinger,udfps_lib,//device/nothing/tetris:libudfps_extension.nothing)
 
@@ -391,10 +391,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-ndk.vendor \
     android.hardware.usb-V1-ndk.vendor \
     android.hardware.usb.gadget-V1-ndk.vendor
-
-# UDFPS
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.nothing_tetris
 
 # Vibrator
 PRODUCT_PACKAGES += \
