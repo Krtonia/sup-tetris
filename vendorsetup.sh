@@ -14,3 +14,7 @@ fi
 if [ ! -d "device/nothing/tetris-kernel" ]; then
   git clone https://github.com/SuperAviation001/android_device_nothing_tetris-kernel -b lineage-22.2 device/nothing/tetris-kernel
 fi
+if [ ! -d "device/mediatek/sepolicy_vndr" ]; then
+  git clone -b lineage-22.2 https://github.com/LineageOS/android_device_mediatek_sepolicy_vndr.git device/mediatek/sepolicy_vndr
+fi
+
