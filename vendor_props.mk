@@ -45,7 +45,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.powerhal.power.dl=true \
     vendor.audio.powerhal.power.ul=true \
     vendor.audio.usb.iems.period_us=5000 \
-    vendor.bluetooth.ldac.abr=true
+    vendor.bluetooth.ldac.abr=true \
+    ro.bluetooth.powerstats.disable=true
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
