@@ -474,6 +474,9 @@
          on the headphone/microphone jack. When false use the older uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
+
     <!-- Whether the device supports Smart Pixels -->
      <bool name="config_supportSmartPixels">true</bool>
 
