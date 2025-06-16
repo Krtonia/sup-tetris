@@ -116,6 +116,7 @@ TARGET_BOARD_PLATFORM := mt6878
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/system.prop
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/configs/props/phoneinfo.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
 
 # Recovery
 BOARD_INCLUDE_RECOVERY_RAMDISK_IN_VENDOR_BOOT := true
