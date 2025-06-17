@@ -1,3 +1,0 @@
-attribute hal_mtk_power;
-attribute hal_mtk_power_client;
-attribute hal_mtk_power_server;
