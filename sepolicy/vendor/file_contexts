@@ -11,3 +11,4 @@
 
 # Power
 /vendor/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr                      u:object_r:hal_power_default_exec:s0
+/vendor/etc/power.prop                                                                 u:object_r:vendor_power_prop:s0
