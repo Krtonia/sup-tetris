@@ -107,7 +107,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # Reserve space for GAPPS if user wishes to install
--include vendor/genesis/config/BoardConfigReservedSize.mk
+-include vendor/clover/config/BoardConfigReservedSize.mk
 
 # Platform
 BOARD_HAS_MTK_HARDWARE := true
